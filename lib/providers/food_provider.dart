@@ -9,8 +9,7 @@ class FoodProvider with ChangeNotifier {
   final auth = Auth();
 
   late String _title = "";
-  late String _image =
-      "https://firebasestorage.googleapis.com/v0/b/food-app-ff7e9.appspot.com/o/buku%20pelajaran.jpg?alt=media&token=a637b4ca-d9b0-4a21-968f-1412f968cba1";
+  late String _image ="https://firebasestorage.googleapis.com/v0/b/food-app-ff7e9.appspot.com/o/buku%20pelajaran.jpg?alt=media&token=a637b4ca-d9b0-4a21-968f-1412f968cba1";
   late String _detail = "";
   late String _email = "";
   late String _password = "";
